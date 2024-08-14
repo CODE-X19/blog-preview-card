@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'figtree';
+    background-color: #F4D04E;
+    display: grid;
+    justify-items: center;
+  margin-top: 25vh;
+       
+}
+
+.card{
+    background-color: #fff;
+    width: 220px;
+    display: grid ;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    }
+
+    .illustration{
+        width: 200px;
+        border-radius: 7px;
+    }
+    .text{
+        font-size: .7rem;
+        margin: 15px 5px;
+        
+    }
+
+    .text span{
+        font-weight: bold;
+        background-color: #F4D04E;
+        padding: .1rem .3rem;
+        border-radius: 3px;
+        margin: 10rem 0;
+        
+    }
+
+    .date{
+        font-size: .5rem;
+        padding: .4rem 0 .2rem 0;
+        font-weight: bold;
+    }
+    h2{
+        font-size: 1rem;
+        padding: .3rem 0;
+        font-weight: bolder;
+    }
+    h2:hover{
+     color: #F4D04E;
+     cursor: pointer;
+    }
+
+    .dicription{
+        font-size: .6rem;
+        width: 190px;
+        line-height: .9rem;
+    }
+
+    .users-Profile{
+        display: block;
+        
+        
+    }
+
+    .user-avata{
+        width: 20px;
+    }
+    .user-name{
+        font-size: .6rem;
+        font-weight: bold;
+        position: relative;
+       top: -4px;
+    }
+    .attribution{
+        text-decoration: none;
+        font-size: .6rem;
+        color: #fff;
+        
+        position: relative;
+       top: 150px;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        
+    }
